@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TestUIApp.xcscheme_^#shared#^_</key>
+		<key>TestUIApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>84D47ED824EC2E4100BCCAE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84D47EEE24EC2E4400BCCAE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
