@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Cabbage",
+        "imageName": "cabbage",
+        "description": "Healthy and full with nutrients"
+    },
+    {
+        "id": 2,
+        "name": "Tomato",
+        "imageName": "tomato",
+        "description": "Red and delicious"
+    },
+    {
+        "id": 3,
+        "name": "Potato",
+        "imageName": "potato",
+        "description": "Nutritious and delicious"
+    },
+    {
+        "id": 4,
+        "name": "Lettuce",
+        "imageName": "lettuce",
+        "description": "Great for salads"
+    },
+    {
+        "id": 5,
+        "name": "Eggplant",
+        "imageName": "eggplant",
+        "description": "Just great and it's purple"
+    },
+    {
+        "id": 6,
+        "name": "Zucchini",
+        "imageName": "zucchini",
+        "description": "Delicious and great for pasta"
+    }
+]

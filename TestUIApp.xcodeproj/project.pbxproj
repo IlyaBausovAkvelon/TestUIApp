@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		514BB9FAF0152E885EC295F3 /* Pods_TestUIApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7986A19165CBFB55095B724 /* Pods_TestUIApp.framework */; };
+		84754D2B24ED6FD3002DCB81 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84754D2A24ED6FD3002DCB81 /* ListView.swift */; };
+		84754D3224ED7700002DCB81 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84754D3124ED7700002DCB81 /* ListRowView.swift */; };
+		84A51C8524EDA51A00C48706 /* Vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = 84A51C8024EDA51A00C48706 /* Vegetables.json */; };
+		84A51C8624EDA51A00C48706 /* potato.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A51C8224EDA51A00C48706 /* potato.png */; };
+		84A51C8724EDA51A00C48706 /* tomato.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A51C8324EDA51A00C48706 /* tomato.png */; };
+		84A51C8824EDA51A00C48706 /* cabbage.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A51C8424EDA51A00C48706 /* cabbage.png */; };
+		84A51C8C24EDB29100C48706 /* VegetableDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A51C8B24EDB29100C48706 /* VegetableDetailsView.swift */; };
+		84A51C8E24EDB87100C48706 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A51C8D24EDB87100C48706 /* CircleImage.swift */; };
+		84A51C9024EDE2E700C48706 /* eggplant.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A51C8F24EDE2E700C48706 /* eggplant.png */; };
+		84A51C9324EDE4A200C48706 /* lettuce.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A51C9124EDE4A200C48706 /* lettuce.png */; };
+		84A51C9424EDE4A200C48706 /* zucchini.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A51C9224EDE4A200C48706 /* zucchini.png */; };
 		84D47EDD24EC2E4100BCCAE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D47EDC24EC2E4100BCCAE4 /* AppDelegate.swift */; };
 		84D47EDF24EC2E4100BCCAE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D47EDE24EC2E4100BCCAE4 /* SceneDelegate.swift */; };
 		84D47EE124EC2E4100BCCAE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D47EE024EC2E4100BCCAE4 /* ContentView.swift */; };
@@ -15,6 +26,8 @@
 		84D47EE624EC2E4400BCCAE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D47EE524EC2E4400BCCAE4 /* Preview Assets.xcassets */; };
 		84D47EE924EC2E4400BCCAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D47EE724EC2E4400BCCAE4 /* LaunchScreen.storyboard */; };
 		84D47EF424EC2E4400BCCAE4 /* TestUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D47EF324EC2E4400BCCAE4 /* TestUIAppUITests.swift */; };
+		84D47EFF24EC4C3300BCCAE4 /* Vegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D47EFE24EC4C3300BCCAE4 /* Vegetable.swift */; };
+		84F6A03C24ED9D8400A48A38 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6A03B24ED9D8400A48A38 /* DataProvider.swift */; };
 		EE4D11EA46D027A3600AB40B /* Pods_TestUIApp_TestUIAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C0E65DC19524BFCF9D455E /* Pods_TestUIApp_TestUIAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +44,17 @@
 /* Begin PBXFileReference section */
 		06C0E65DC19524BFCF9D455E /* Pods_TestUIApp_TestUIAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestUIApp_TestUIAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2D6BBC56322D93FA14A04E /* Pods-TestUIApp-TestUIAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUIApp-TestUIAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TestUIApp-TestUIAppUITests/Pods-TestUIApp-TestUIAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84754D2A24ED6FD3002DCB81 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		84754D3124ED7700002DCB81 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		84A51C8024EDA51A00C48706 /* Vegetables.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Vegetables.json; sourceTree = "<group>"; };
+		84A51C8224EDA51A00C48706 /* potato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potato.png; sourceTree = "<group>"; };
+		84A51C8324EDA51A00C48706 /* tomato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomato.png; sourceTree = "<group>"; };
+		84A51C8424EDA51A00C48706 /* cabbage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cabbage.png; sourceTree = "<group>"; };
+		84A51C8B24EDB29100C48706 /* VegetableDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDetailsView.swift; sourceTree = "<group>"; };
+		84A51C8D24EDB87100C48706 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		84A51C8F24EDE2E700C48706 /* eggplant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eggplant.png; sourceTree = "<group>"; };
+		84A51C9124EDE4A200C48706 /* lettuce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lettuce.png; sourceTree = "<group>"; };
+		84A51C9224EDE4A200C48706 /* zucchini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zucchini.png; sourceTree = "<group>"; };
 		84D47ED924EC2E4100BCCAE4 /* TestUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D47EDC24EC2E4100BCCAE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D47EDE24EC2E4100BCCAE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +66,8 @@
 		84D47EEF24EC2E4400BCCAE4 /* TestUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D47EF324EC2E4400BCCAE4 /* TestUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIAppUITests.swift; sourceTree = "<group>"; };
 		84D47EF524EC2E4400BCCAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D47EFE24EC4C3300BCCAE4 /* Vegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetable.swift; sourceTree = "<group>"; };
+		84F6A03B24ED9D8400A48A38 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		8BDCF967D4BF5723BCB40BE6 /* Pods-TestUIApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUIApp.debug.xcconfig"; path = "Target Support Files/Pods-TestUIApp/Pods-TestUIApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B22218771A8FC10A971CE142 /* Pods-TestUIApp-TestUIAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUIApp-TestUIAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestUIApp-TestUIAppUITests/Pods-TestUIApp-TestUIAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7986A19165CBFB55095B724 /* Pods_TestUIApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestUIApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +94,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84754D2C24ED7140002DCB81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84A51C8D24EDB87100C48706 /* CircleImage.swift */,
+				84D47EE024EC2E4100BCCAE4 /* ContentView.swift */,
+				84754D2A24ED6FD3002DCB81 /* ListView.swift */,
+				84754D3124ED7700002DCB81 /* ListRowView.swift */,
+				84A51C8B24EDB29100C48706 /* VegetableDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84754D3024ED7657002DCB81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84D47EFE24EC4C3300BCCAE4 /* Vegetable.swift */,
+				84F6A03B24ED9D8400A48A38 /* DataProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84A51C7F24EDA51900C48706 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84A51C8024EDA51A00C48706 /* Vegetables.json */,
+				84A51C8124EDA51A00C48706 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84A51C8124EDA51A00C48706 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84A51C9124EDE4A200C48706 /* lettuce.png */,
+				84A51C9224EDE4A200C48706 /* zucchini.png */,
+				84A51C8F24EDE2E700C48706 /* eggplant.png */,
+				84A51C8224EDA51A00C48706 /* potato.png */,
+				84A51C8324EDA51A00C48706 /* tomato.png */,
+				84A51C8424EDA51A00C48706 /* cabbage.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		84D47ED024EC2E4100BCCAE4 = {
 			isa = PBXGroup;
 			children = (
@@ -91,12 +160,14 @@
 		84D47EDB24EC2E4100BCCAE4 /* TestUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				84754D3024ED7657002DCB81 /* Models */,
+				84754D2C24ED7140002DCB81 /* Views */,
 				84D47EDC24EC2E4100BCCAE4 /* AppDelegate.swift */,
 				84D47EDE24EC2E4100BCCAE4 /* SceneDelegate.swift */,
-				84D47EE024EC2E4100BCCAE4 /* ContentView.swift */,
 				84D47EE224EC2E4400BCCAE4 /* Assets.xcassets */,
 				84D47EE724EC2E4400BCCAE4 /* LaunchScreen.storyboard */,
 				84D47EEA24EC2E4400BCCAE4 /* Info.plist */,
+				84A51C7F24EDA51900C48706 /* Resources */,
 				84D47EE424EC2E4400BCCAE4 /* Preview Content */,
 			);
 			path = TestUIApp;
@@ -136,7 +207,6 @@
 				B22218771A8FC10A971CE142 /* Pods-TestUIApp-TestUIAppUITests.debug.xcconfig */,
 				7E2D6BBC56322D93FA14A04E /* Pods-TestUIApp-TestUIAppUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -224,7 +294,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D47EE924EC2E4400BCCAE4 /* LaunchScreen.storyboard in Resources */,
+				84A51C9024EDE2E700C48706 /* eggplant.png in Resources */,
+				84A51C9424EDE4A200C48706 /* zucchini.png in Resources */,
+				84A51C8824EDA51A00C48706 /* cabbage.png in Resources */,
+				84A51C8624EDA51A00C48706 /* potato.png in Resources */,
+				84A51C8524EDA51A00C48706 /* Vegetables.json in Resources */,
+				84A51C8724EDA51A00C48706 /* tomato.png in Resources */,
 				84D47EE624EC2E4400BCCAE4 /* Preview Assets.xcassets in Resources */,
+				84A51C9324EDE4A200C48706 /* lettuce.png in Resources */,
 				84D47EE324EC2E4400BCCAE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,8 +368,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D47EDD24EC2E4100BCCAE4 /* AppDelegate.swift in Sources */,
+				84754D2B24ED6FD3002DCB81 /* ListView.swift in Sources */,
+				84D47EFF24EC4C3300BCCAE4 /* Vegetable.swift in Sources */,
 				84D47EDF24EC2E4100BCCAE4 /* SceneDelegate.swift in Sources */,
+				84754D3224ED7700002DCB81 /* ListRowView.swift in Sources */,
+				84F6A03C24ED9D8400A48A38 /* DataProvider.swift in Sources */,
+				84A51C8C24EDB29100C48706 /* VegetableDetailsView.swift in Sources */,
 				84D47EE124EC2E4100BCCAE4 /* ContentView.swift in Sources */,
+				84A51C8E24EDB87100C48706 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TestUIApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 93AG22MAFZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TestUIApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,6 +551,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TestUIApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 93AG22MAFZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TestUIApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
