@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  TestUIApp
-//
-//  Created by Admin on 8/18/20.
-//  Copyright © 2020 ilya.bausov. All rights reserved.
-//
-
 import UIKit
 import SwiftUI
 

@@ -1,11 +1,3 @@
-//
-//  ListRow.swift
-//  TestUIApp
-//
-//  Created by Admin on 8/19/20.
-//  Copyright © 2020 ilya.bausov. All rights reserved.
-//
-
 import SwiftUI
 
 /// View for representing ListRow with vegetable info.
