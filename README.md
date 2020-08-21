@@ -23,7 +23,10 @@ These tests covers the List View, Details View, Tab View and transitions between
 These repository has AppCenter builds and test runs.
 
 Here the link to the one of the builds:
+https://appcenter.ms/users/ilya.bausov/apps/TestUIApp/build/branches/master/builds/3
+
 Here the link to the one of the test runs:
+https://appcenter.ms/users/ilya.bausov/apps/TestUIApp/test/runs/222a3ba1-8f8d-4d97-b1b4-08f9160041a5
 
 ## How do I run tests on the AppCenter:
 
